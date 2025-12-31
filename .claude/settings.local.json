@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls:*)",
+      "Bash(nul)",
+      "Bash(cmd /c \"mkdir %USERPROFILE%\\.ssh && ssh-keygen -t ed25519 -f %USERPROFILE%\\.ssh\\id_ed25519 -N \"\"\"\" -C \"\"generated-by-claude-code\"\"\")",
+      "Bash(cmd /c \"type %USERPROFILE%\\.ssh\\id_ed25519.pub\")"
+    ],
+    "deny": [],
+    "ask": []
+  }
+}
